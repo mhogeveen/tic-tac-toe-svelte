@@ -14,18 +14,11 @@
 		"strict": true,
 		"target": "es2020",
 		"paths": {
-			"$stores": [
-				"src/stores"
-			],
-			"$components": [
-				"src/components"
-			],
-			"$lib": [
-				"src/lib"
-			],
-  		"$lib/*": [
-				"src/lib/*"
-			]
+			"$stores": ["src/stores"],
+			"$utils": ["src/utils"],
+			"$components": ["src/components"],
+			"$lib": ["src/lib"],
+			"$lib/*": ["src/lib/*"]
 		}
 	}
 }
