@@ -3,7 +3,9 @@
 </script>
 
 <button on:click>
+  <slot name="before" />
   {#if text}
     {text}
   {/if}
+  <slot name="after" />
 </button>
